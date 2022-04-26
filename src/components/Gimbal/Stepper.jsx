@@ -1,6 +1,7 @@
 import React from "react";
-import { Steps, Divider } from 'antd';
+import { Steps } from "antd";
 import Account from "../Account/Account"
+import Stake from "./Stake"
 
 const { Step } = Steps;
 
@@ -19,12 +20,10 @@ class Stepper extends React.Component {
 
     return (
       <>
-        <Divider />
-
         <Steps current={current} onChange={this.onChange} direction="vertical">
-          <Step title="Connect wallet" description={<Account/>}/>
-          <Step title="Stake stablecoin" description="This is a description." />
-          <Step title="Instantly earning " description="This is a description." />
+          <Step title="Connect" description={<Account/>}/>
+          <Step title="Stake" description={<Stake/>} />
+          <Step title="Earn " description="This is a description." />
         </Steps>
       </>
     );
