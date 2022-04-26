@@ -23,7 +23,6 @@ import Contract from "components/Contract/Contract";
 //import Text from "antd/lib/typography/Text";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
-import About from "./components/Home/About";
 import LandingPage from "./components/Home/LandingPage";
 import Gimbal from "./components/Gimbal/Gimbal";
 
