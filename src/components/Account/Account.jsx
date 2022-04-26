@@ -60,7 +60,7 @@ function Account() {
             shape="round"
             icon={<PlusCircleOutlined />}
           >
-            My wallet
+            Connect wallet
           </Button>
         </div>
         <Modal
